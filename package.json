@@ -1,0 +1,36 @@
+{
+  "name": "qecamp-testing-react-redux-with-jest",
+  "version": "1.0.0",
+  "description": "Testing React-Redux Applications with Jest",
+  "main": "index.js",
+  "repository": "git@github.com:sharvit/qecamp-testing-react-redux-with-jest.git",
+  "author": "Avi Sharvit <sharvita@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "^16.6.0",
+    "redux": "^4.0.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^23.6.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-assign": "^6.22.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "coveralls": "^3.0.2",
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.6.0",
+    "enzyme-to-json": "^3.3.4",
+    "eslint": "^5.8.0",
+    "eslint-plugin-patternfly-react": "^0.2.0",
+    "jest": "^23.6.0",
+    "prettier": "^1.14.3",
+    "raf": "^3.4.0"
+  }
+}
