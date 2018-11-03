@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserProfile - Integration Test should flow: Update to show the user-avatar 1`] = `
+Object {
+  "action": Array [
+    Array [
+      Object {
+        "payload": true,
+        "type": "USER_PROFILE_UPDATE_AVATAR",
+      },
+    ],
+  ],
+  "state": Object {
+    "userProfile": Object {
+      "showAvatar": true,
+      "showPhotos": false,
+      "showPosts": false,
+    },
+  },
+}
+`;
+
+exports[`UserProfile - Integration Test should flow: initial state 1`] = `
+Object {
+  "userProfile": Object {
+    "showAvatar": false,
+    "showPhotos": false,
+    "showPosts": false,
+  },
+}
+`;

@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserProfile - Actions should update-show-avatar 1`] = `
+Object {
+  "payload": true,
+  "type": "USER_PROFILE_UPDATE_AVATAR",
+}
+`;
+
+exports[`UserProfile - Actions should update-show-photos 1`] = `
+Object {
+  "payload": true,
+  "type": "USER_PROFILE_UPDATE_PHOTOS",
+}
+`;
+
+exports[`UserProfile - Actions should update-show-posts 1`] = `
+Object {
+  "payload": true,
+  "type": "USER_PROFILE_UPDATE_POSTS",
+}
+`;

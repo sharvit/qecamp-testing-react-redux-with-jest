@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserProfile - Reducer should return the initial state 1`] = `
+Object {
+  "showAvatar": false,
+  "showPhotos": false,
+  "showPosts": false,
+}
+`;
+
+exports[`UserProfile - Reducer should handle USER_PROFILE_UPDATE_AVATAR 1`] = `
+Object {
+  "showAvatar": true,
+  "showPhotos": false,
+  "showPosts": false,
+}
+`;
+
+exports[`UserProfile - Reducer should handle USER_PROFILE_UPDATE_PHOTOS 1`] = `
+Object {
+  "showAvatar": false,
+  "showPhotos": true,
+  "showPosts": false,
+}
+`;
+
+exports[`UserProfile - Reducer should handle USER_PROFILE_UPDATE_POSTS 1`] = `
+Object {
+  "showAvatar": false,
+  "showPhotos": false,
+  "showPosts": true,
+}
+`;

@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserProfile - component should render UserProfile 1`] = `
+<div
+  className="user-profile"
+>
+  <UserDetailsBox
+    user="some-user"
+  />
+  <input
+    id="show-avatar-toggler"
+    onChange={[Function]}
+    type="checkbox"
+  />
+  <input
+    id="show-photos-toggler"
+    onChange={[Function]}
+    type="checkbox"
+  />
+  <input
+    id="show-posts-toggler"
+    onChange={[Function]}
+    type="checkbox"
+  />
+</div>
+`;
+
+exports[`UserProfile - component should render UserProfile with avatar 1`] = `
+<div
+  className="user-profile"
+>
+  <UserDetailsBox
+    user="some-user"
+  />
+  <UserAvatar
+    size="sm"
+    user="some-user"
+  />
+  <input
+    checked={true}
+    id="show-avatar-toggler"
+    onChange={[Function]}
+    type="checkbox"
+  />
+  <input
+    id="show-photos-toggler"
+    onChange={[Function]}
+    type="checkbox"
+  />
+  <input
+    id="show-posts-toggler"
+    onChange={[Function]}
+    type="checkbox"
+  />
+</div>
+`;
+
+exports[`UserProfile - component should render UserProfile with posts and photos 1`] = `
+<div
+  className="user-profile"
+>
+  <UserDetailsBox
+    user="some-user"
+  />
+  <UserPhotos
+    count={5}
+    sort="DESC"
+    user="some-user"
+  />
+  <UserPosts
+    count={5}
+    sort="DESC"
+    user="some-user"
+  />
+  <input
+    id="show-avatar-toggler"
+    onChange={[Function]}
+    type="checkbox"
+  />
+  <input
+    checked={true}
+    id="show-photos-toggler"
+    onChange={[Function]}
+    type="checkbox"
+  />
+  <input
+    checked={true}
+    id="show-posts-toggler"
+    onChange={[Function]}
+    type="checkbox"
+  />
+</div>
+`;

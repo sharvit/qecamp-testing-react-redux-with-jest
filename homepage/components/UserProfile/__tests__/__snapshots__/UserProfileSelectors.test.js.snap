@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserProfile - Selectors should select show-avatar 1`] = `"showAvatar"`;
+
+exports[`UserProfile - Selectors should select show-photos 1`] = `"showPhotos"`;
+
+exports[`UserProfile - Selectors should select show-posts 1`] = `"showPosts"`;
